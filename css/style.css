@@ -286,6 +286,9 @@ body {
 }
 
 @media (max-width:1023px) {
+    .page .highlight .cards  {
+        grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    }
     .page .highlight {
         padding: 15px;
         margin-top: 70px;
