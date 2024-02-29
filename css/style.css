@@ -58,9 +58,6 @@ body {
     right: 0;
 }
 
-.page nav .icons img {
-    width: 50px;
-}
 
 @media (max-width:1024px) {
     .page nav .links {
@@ -80,6 +77,10 @@ body {
     }
     .page nav {
         padding: 15px;
+    }
+    .page nav .icons img {
+        width: 50px;
+        margin: 0;
     }
 }
 
